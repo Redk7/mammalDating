@@ -121,6 +121,8 @@ font-size: 1.5rem;
 }
 .card-row{
   padding: 5%;
+  width: 100%;
+  margin: auto;
 }
 
 .bot-h3{
