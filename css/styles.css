@@ -17,11 +17,10 @@ h2{
 }
 
 
-
 /*ID SELECTORS*/
 
 #title {
-  background-color: #ff4c68;
+  background-color: #0779e4;
 
 }
 /*This is the features section*/
@@ -31,7 +30,7 @@ h2{
   position: relative;
 }
 #testimonials{
-  background-color: #f78259;
+  background-color: #272343;
   color: #fff;
 }
 .carousel-item{
@@ -39,12 +38,12 @@ h2{
 
 }
 #press{
-  background-color: #f78259;
+  background-color: #272343;
   padding-bottom: 3%;
 }
 #cta{
   padding: 7% 20%;
-  background-color: #ff4c68;
+  background-color: #0779e4;
 }
 #pricing{
   padding-top: 4%;
@@ -52,6 +51,7 @@ h2{
 #footer{
   padding: 5%;
 }
+
 .icons{
   margin: 10px;
 }
@@ -94,10 +94,10 @@ h2{
 }
 .icon{
   margin-bottom: 10px;
-  color: #f78259;
+  color: #272343;
 }
 .icon:hover{
-  color: #eb4559;
+  color: #0779e4;
 }
 .column-set-1 {
   padding: 3%;
@@ -129,10 +129,20 @@ font-size: 1.5rem;
   font-size: 3rem;
 }
 
-
+.credits{
+  font-size: .3rem;
+}
 
 @media (max-width:792px) {
   .t-h1{
     font-size: 3rem;
+  }
+  .title-image{
+    width:60%;
+    transform: rotate(0deg);
+    margin:0;
+    position: relative;
+    top:10px;
+    left: 50px;
   }
 }
